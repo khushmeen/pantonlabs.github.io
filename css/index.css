@@ -1,3 +1,32 @@
 .centered {
   margin: 0 auto !important;
 }
+
+.coloured-bg {
+  height: 100px;
+}
+
+.orange-color {
+  background-color: #FF5722 !important;
+  color: #ffffff !important;
+}
+
+.blue-color {
+  background-color: #0B3C5D !important;
+  color: #ffffff !important;
+}
+
+.light-blue-color {
+  background-color: #328CC1 !important;
+  color: #ffffff !important;
+}
+
+.gold-color {
+  background-color: #D9B310 !important;
+  color: #ffffff !important;
+}
+
+.black-color {
+  background-color: #1D2731 !important;
+  color: #ffffff !important;
+}
