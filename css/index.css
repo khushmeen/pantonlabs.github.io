@@ -1,3 +1,52 @@
+// colors
+.orange-color {
+  background-color: #FF5722 !important;
+  color: #ffffff !important;
+}
+
+.blue-color {
+  background-color: #2046b8 !important;
+  color: #ffffff !important;
+}
+
+.red-color {
+  background-color: #E21121 !important;
+  color: #ffffff !important;
+}
+
+.yellow-color {
+  background-color: #F7C300 !important;
+  color: #ffffff !important;
+}
+
+.black-color {
+  background-color: #1D2731 !important;
+  color: #ffffff !important;
+}
+
+.menu > .item {
+  color: white !important;
+}
+
+.top-menu  {
+  background-image: url('../assets/images/logo_Old.jpg');
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.icon.white.button {
+  color: #ffffff !important;
+}
+
+.item.social-button {
+  margin: 0 !important;
+}
+
+.layer {
+  height: 100%;
+  background-color: rgba(32, 70, 184, 0.95) !important;
+}
+
 .centered {
   margin: 0 auto !important;
 }
@@ -6,27 +55,19 @@
   height: 100px;
 }
 
-.orange-color {
-  background-color: #FF5722 !important;
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.red-color > .container > .header {
   color: #ffffff !important;
 }
 
-.blue-color {
-  background-color: #0B3C5D !important;
+.yellow-color > .container > .header {
   color: #ffffff !important;
 }
 
-.light-blue-color {
-  background-color: #328CC1 !important;
-  color: #ffffff !important;
-}
-
-.gold-color {
-  background-color: #D9B310 !important;
-  color: #ffffff !important;
-}
-
-.black-color {
-  background-color: #1D2731 !important;
+.blue-color > .container > .header {
   color: #ffffff !important;
 }
