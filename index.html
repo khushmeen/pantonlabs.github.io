@@ -13,7 +13,7 @@
 <script src="./assets/js/semantic.min.js"></script>
   </head>
   <body>
-    <div class="ui row blue-color top-menu">
+    <div class="ui row top-menu">
       <div class="layer section">
         <div class="ui secondary menu">
           <div class="header item">
@@ -21,9 +21,9 @@
           </div>
           <div class="fluid right menu">
             <a class="item">
-              About Us
+              Home
             </a>
-            <a class="item">
+            <a class="item" href="#services">
               Our Services
             </a>
             <a class="item">
@@ -51,7 +51,7 @@
         </div>
       </div>
     </div>
-    <div class="ui container section">
+    <div class="ui container section" id="services">
       <div class="ui grid">
         <div class="ui sixteen wide column center aligned">
           <h1 class="ui header">Our Services</h1>
@@ -82,43 +82,28 @@
             </div>
           </div>
         </div>
+      </div>
     </div>
-    </div>
-    <div class="ui row yellow-color section">
-      <div class="ui container center aligned">
+    <div class="ui row section">
+      <div class="ui grid center aligned">
         <h2 class="ui header">Our Work</h2>
-        <div class="ui two column grid">
-          <div class="column">
-            <iframe src="https://player.vimeo.com/video/247796008" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            <div class="ui small-text">AiAssetX Service Explainer</div>
-          </div>
-          <div class="column">
-            <iframe src="https://player.vimeo.com/video/247796675" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            <div class="ui small-text">Service People Product Explainer</div>
+        <div class="row">
+          <div class="ui two column grid">
+            <div class="column" id='video_0'>
+              <iframe class="full-width" src="https://player.vimeo.com/video/247796008" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="column">
+              <div class="ui small-text">Service People Product Explainer</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="ui row blue-color section">
       <div class="ui container center aligned">
-        <h2 class="ui header">Contact Us</h2>
-        <div class="ui three column grid">
-          <div class="column">
-            <img class="ui circle centered-img image tiny" src="./assets/images/logo.png" alt="Logo">
-            STEP 1
-          </div>
-          <div class="column">
-            <img class="ui circle centered-img image tiny" src="./assets/images/logo.png" alt="Logo">
-            STEP 2
-          </div>
-          <div class="column">
-            <img class="ui circle centered-img image tiny" src="./assets/images/logo.png" alt="Logo">
-            STEP 3
-          </div>
-        </div>
-        <div class="ui section">
-          <button class="ui button yellow-color center aligned" name="button"><i class="play icon"></i></button>
-        </div>
+        <h1 class="ui header">Contact Us</h1>
+        <h3 class="ui header">Lets make your brand irresistible, contact us now</h3>
+        <h2 class="ui header"><a href="mailto:khushmeen@pantonstudios.com?Subject=Hello" target="_top">khushmeen@pantonstudios.com</a></h2>
       </div>
     </div>
     <!-- <div class="ui row section">
@@ -169,7 +154,6 @@
       </div>
     </div>
     <script src="./js/index.js">
-
     </script>
   </body>
 </html>

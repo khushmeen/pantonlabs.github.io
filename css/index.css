@@ -1,10 +1,10 @@
 .orange-color {
-  background-color: #FF5722 !important;
+  background-color: #FB8C37 !important;
   color: #ffffff !important;
 }
 
 .blue-color {
-  background-color: #2046b8 !important;
+  background-color: rgba(7, 16, 45, 1) !important;
   color: #ffffff !important;
 }
 
@@ -42,7 +42,7 @@
 
 .layer {
   height: 100%;
-  background-color: rgba(32, 70, 184, 0.95) !important;
+  background-color: rgba(7, 16, 45, 1) !important;
 }
 
 .centered-img {
@@ -77,4 +77,9 @@
 
 .small-text {
   font-size: 1.15rem !important;
+}
+
+.full-width {
+  min-height: 250px;
+  width: 100% !important;
 }
