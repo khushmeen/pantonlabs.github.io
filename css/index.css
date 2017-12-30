@@ -9,7 +9,7 @@
 }
 
 .red-color {
-  background-color: #E21121 !important;
+  background-color: #F15F50 !important;
   color: #ffffff !important;
 }
 
@@ -80,6 +80,19 @@
 }
 
 .full-width {
-  min-height: 250px;
+  min-height: 350px;
   width: 100% !important;
+}
+
+.container.special {
+  width: 100% !important;
+  padding-bottom: 14px !important;
+}
+
+.video.row {
+  margin-top: 14px;
+}
+
+.ui.header.head {
+  padding-bottom: 25px;
 }
