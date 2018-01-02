@@ -4,12 +4,12 @@
 }
 
 .blue-color {
-  background-color: rgba(7, 16, 45, 1) !important;
+  background-color: #174883 !important;
   color: #ffffff !important;
 }
 
 .red-color {
-  background-color: #F15F50 !important;
+  background-color: #CC0A27 !important;
   color: #ffffff !important;
 }
 
@@ -84,11 +84,16 @@
 }
 
 .small-text {
-  font-size: 1.15rem !important;
+  font-size: 1.50rem !important;
+}
+
+.big-text {
+  font-size: 2.15rem !important;
+  margin-bottom: 10px;
 }
 
 .full-width {
-  min-height: 350px;
+  min-height: 250px;
   width: 100% !important;
 }
 
