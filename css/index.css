@@ -14,7 +14,7 @@
 }
 
 .yellow-color {
-  background-color: #F7C300 !important;
+  background-color: #FDC01E !important;
   color: #ffffff !important;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .menu > .item {
-  color: white !important;
+  color: #FDC01E !important;
 }
 
 .top-menu  {
@@ -42,7 +42,15 @@
 
 .layer {
   height: 100%;
-  background-color: rgba(7, 16, 45, 1) !important;
+}
+
+.yellow-bg-transparent {
+  background-color: rgba(253, 192, 30, 0.60) !important;
+}
+
+.bg {
+  background: url("../img/bg.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .centered-img {
@@ -54,7 +62,7 @@
 }
 
 .section {
-  padding-top: 20px;
+  padding-top: 80px;
   padding-bottom: 20px;
 }
 
